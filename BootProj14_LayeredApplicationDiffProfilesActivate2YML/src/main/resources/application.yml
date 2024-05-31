@@ -1,0 +1,66 @@
+spring:
+  profiles:
+    active: dev
+---
+spring:
+ config:
+  activate:
+   on-profile: dev
+  
+ dataSource:
+    password: Raja@1998
+  
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: org.apache.commons.dbcp2.BasicDataSource
+    url: jdbc:mysql:///raja12345
+    username: root
+ 
+---
+spring:
+ config:
+  activate:
+   on-profile: prod
+  
+ datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    hikari:
+      keepalive-time: 100000
+      maximum-pool-size: 100
+      minimum-idle: 10
+    password: xe
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: xe
+---
+spring:
+ config:
+  activate:
+   on-profile: test
+  
+ dataSource:
+    password: Raja@1998
+  
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.mchange.v2.c3p0.ComboPooledDataSource
+    url: jdbc:mysql:///raja12345
+    username: root
+ datasource:
+   dbcp2:
+     intial:
+       size: 10
+       max:
+       total: 100
+       max-conn-lifetime-millis: 100000
+---
+spring:
+ config:
+  activate:
+   on-profile: uat
+ 
+ dataSource:
+    password: xe
+  
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    type: oracle.ucp.jdbc.ConnectionConnectionPool
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: xe
+

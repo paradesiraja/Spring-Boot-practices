@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "stud.nit",
+      "type": "com.nt.sbeans.Student",
+      "sourceType": "com.nt.sbeans.Student"
+    }
+  ],
+  "properties": [
+    {
+      "name": "stud.nit.saddrs",
+      "type": "java.lang.String",
+      "sourceType": "com.nt.sbeans.Student"
+    },
+    {
+      "name": "stud.nit.sname",
+      "type": "java.lang.String",
+      "sourceType": "com.nt.sbeans.Student"
+    },
+    {
+      "name": "stud.nit.sno",
+      "type": "java.lang.Integer",
+      "sourceType": "com.nt.sbeans.Student"
+    }
+  ],
+  "hints": []
+}

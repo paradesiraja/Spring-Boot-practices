@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 19
+Implementation-Title: BootProj10_ConfigurationPropertiesAnnotationSimple
+ ArrayCollectionHas-AProperties
+Implementation-Version: 0.0.1-SNAPSHOT
+Created-By: Maven Integration for Eclipse
+

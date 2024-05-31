@@ -1,0 +1,35 @@
+org:
+   nit:
+     eno: 123
+     ename: raja
+     #Array type properties
+     favColors:
+          -red1
+          -blue1
+          -yellow1
+          #for List Collection
+     nickNames:
+         -raja
+         -raghu
+         -ravi
+      nickNames:[raja1,raghu1,ravi1]
+     
+     #for Set collection 
+     phoneNumbers:
+      -9999999
+      -4555668
+      -3454545
+       
+     idDetails:
+            aadhar: 122g4
+            panNo: 33234f
+            ratuonNo: 2432435j5
+            
+     company:
+          id: 1223
+          name: raja
+          addrs: hyd
+          size: 120
+            
+              
+          

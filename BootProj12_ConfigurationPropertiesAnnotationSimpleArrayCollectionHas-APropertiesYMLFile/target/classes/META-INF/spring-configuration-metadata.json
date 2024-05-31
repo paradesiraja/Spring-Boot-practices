@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "org.nit",
+      "type": "com.nt.sbeans.Employee",
+      "sourceType": "com.nt.sbeans.Employee"
+    }
+  ],
+  "properties": [
+    {
+      "name": "org.nit.company",
+      "type": "com.nt.sbeans.Company",
+      "sourceType": "com.nt.sbeans.Employee"
+    },
+    {
+      "name": "org.nit.ename",
+      "type": "java.lang.String",
+      "sourceType": "com.nt.sbeans.Employee"
+    },
+    {
+      "name": "org.nit.eno",
+      "type": "java.lang.Integer",
+      "sourceType": "com.nt.sbeans.Employee"
+    },
+    {
+      "name": "org.nit.fav-colors",
+      "type": "java.lang.String[]",
+      "sourceType": "com.nt.sbeans.Employee"
+    },
+    {
+      "name": "org.nit.id-details",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.nt.sbeans.Employee"
+    },
+    {
+      "name": "org.nit.nick-names",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.nt.sbeans.Employee"
+    },
+    {
+      "name": "org.nit.phone-numbers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "com.nt.sbeans.Employee"
+    }
+  ],
+  "hints": []
+}
